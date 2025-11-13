@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+      },
       colors: {
         primary: {
           50: '#f0f9ff',
@@ -25,6 +28,5 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
 };
 export default config;
